@@ -7,7 +7,7 @@
 > Описание code style будет на странице wiki, на соответствующей языку закладке
 
 Как минимум перед прочтением следует ознакомиться с отличным гайдом, который был мной бережно и с трепетом форкнут в свои кулуары:
-[GitHub](http://github.com)
+[Ribots guidline](https://github.com/EvgenySamarin/android-guidelines/blob/master/project_and_code_guidelines.md)
 
 ## Own Android UI component naming convention
 
