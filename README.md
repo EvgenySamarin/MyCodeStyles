@@ -19,6 +19,7 @@
 ---       | ---
 Activity  | act
 Fragment  | frag
+ImageView | img
 
 ### Именование Layout Files
 
