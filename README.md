@@ -15,12 +15,13 @@
 
 Принятые сокращения: 
 
-Компонент | Сокращение
----       | ---
-Activity  | act
-Fragment  | frag
-ImageView | img
-TextView  | txt
+Компонент | Сокращение |     | Компонент | Сокращение |
+---       | ---        | --- | ---       | ---        |
+Activity  | act        |     | Icon      | ic         |
+Fragment  | frag       |     |  
+ImageView | img        |     | 
+TextView  | txt        |     | 
+
 
 ### Именование Layout Files
 
