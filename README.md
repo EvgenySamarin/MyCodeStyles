@@ -15,10 +15,10 @@
 
 Принятые сокращения: 
 
-Компонент | Сокращение |     | Компонент | Сокращение |
----       | ---        | --- | ---       | ---        |
-Activity  | act        |     | Icon      | ic         |
-Fragment  | frag       |     |  
+Компонент | Сокращение |     | Компонент        | Сокращение |
+---       | ---        | --- | ---              | ---        |
+Activity  | act        |     | Icon             | ic         |
+Fragment  | frag       |     | MaterialCardView | card       |
 ImageView | img        |     | 
 TextView  | txt        |     | 
 
