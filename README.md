@@ -19,7 +19,7 @@
 ---       | ---        | --- | ---              | ---        |
 Activity  | act        |     | Icon             | ic         |
 Fragment  | frag       |     | MaterialCardView | card       |
-ImageView | img        |     | 
+ImageView | img        |     | Notification     | notify     |
 TextView  | txt        |     | 
 
 
