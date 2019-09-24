@@ -20,7 +20,7 @@
 Activity  | act        |     | Icon             | ic         |
 Fragment  | frag       |     | MaterialCardView | card       |
 ImageView | img        |     | Notification     | notify     |
-TextView  | txt        |     | 
+TextView  | txt        |     | RecyclerView     | recycler
 
 
 ### Именование Layout Files
@@ -37,6 +37,13 @@ TextView  | txt        |     |
   AdapterView item | ---          | ` val itemTest               ` | item_test.xml
   
   ### Именование элементов разметки XML
+  Атрибуты для компонентов разметки пишутся в столбец, по 1 атрибуту в строке.
+  Следует придерживаться следующего порядка добавления атрибутов для компонентов.
+  1. Переопределённый стиль
+  2. Идентификатор
+  3. Атрибуты размера
+  4. Прочие атрибуты
+  
   Идентификаторы view элементов пишутся латиницой, строчными буквами с использованием snake_case и принятых выше сокращений.
   Пример:
  ```xml
