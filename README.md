@@ -18,7 +18,7 @@
 Компонент | Сокращение |     | Компонент        | Сокращение |     | Компонент      | Сокращение |
 ---       | ---        | --- | ---              | ---        | --- | ---            | ---        |
 Activity  | act        |     | Icon             | ic         |     | NavigationView | nav_view   |
-Fragment  | frag       |     | MaterialCardView | card       |     |  	 |    |
+Fragment  | frag       |     | MaterialCardView | card       |     | TabLayout    	 | tabs       |
 ImageView | img        |     | Notification     | notify     |     |    |    |
 TextView  | txt        |     | RecyclerView     | recycler   |     |    |    |
 
