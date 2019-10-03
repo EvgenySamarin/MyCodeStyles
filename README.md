@@ -19,7 +19,7 @@
 ---       | ---        | --- | ---              | ---        | --- | ---            | ---        |
 Activity  | act        |     | Icon             | ic         |     | NavigationView | nav_view   |
 Fragment  | frag       |     | MaterialCardView | card       |     | TabLayout    	 | tabs       |
-ImageView | img        |     | Notification     | notify     |     |    |    |
+ImageView | img        |     | Notification     | notify     |     | TabItem        | tab        |
 TextView  | txt        |     | RecyclerView     | recycler   |     |    |    |
 
 
