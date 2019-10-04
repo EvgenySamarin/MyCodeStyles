@@ -22,6 +22,10 @@ Fragment  | frag       |     | MaterialCardView | card       |     | TabLayout  
 ImageView | img        |     | Notification     | notify     |     | TabItem        | tab        | 
 TextView  | txt        |     | RecyclerView     | recycler   |     | navigation     | nav        | 
 ||||||||
+||||||||
+||||||||
+||||||||
+||||||||
 
 
 ### Именование Layout Files
