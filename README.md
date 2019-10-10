@@ -21,7 +21,7 @@ Activity     | act        |     | Icon             | ic         |     | Navigati
 Fragment     | frag       |     | MaterialCardView | card       |     | TabLayout     	| tabs       | 
 ImageView    | img        |     | Notification     | notify     |     | TabItem        | tab        | 
 TextView     | txt        |     | RecyclerView     | recycler   |     | navigation     | nav        | 
-LinearLayout | lin        |     | MaterialButton   | btn        |     ||
+LinearLayout | lin        |     | MaterialButton   | btn        |     | EditText       | edt        |
 ||||||||
 ||||||||
 ||||||||
