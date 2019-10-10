@@ -22,7 +22,7 @@ Fragment     | frag       |     | MaterialCardView | card       |     | TabLayou
 ImageView    | img        |     | Notification     | notify     |     | TabItem        | tab        | 
 TextView     | txt        |     | RecyclerView     | recycler   |     | navigation     | nav        | 
 LinearLayout | lin        |     | MaterialButton   | btn        |     | EditText       | edt        |
-||||||||
+CheckBox     | chk        |||||||
 ||||||||
 ||||||||
 ||||||||
