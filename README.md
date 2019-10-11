@@ -23,7 +23,7 @@ ImageView    | img        |     | Notification     | notify     |     | TabItem 
 TextView     | txt        |     | RecyclerView     | recycler   |     | navigation           | nav          | 
 LinearLayout | lin        |     | MaterialButton   | btn        |     | EditText             | edt          |
 CheckBox     | chk        |     | Spinner          | spn        |     | BottomNavigationView | btm_nav_view |
-||||||||
+Chip         | chp        |     ||||||
 ||||||||
 ||||||||
 
