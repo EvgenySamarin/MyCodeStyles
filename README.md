@@ -15,15 +15,15 @@
 
 Принятые сокращения: 
 
-Компонент    | Сокращение |     | Компонент        | Сокращение |     | Компонент            | Сокращение   | 
----          | ---        | --- | ---              | ---        | --- | ---                  | ---          | 
-Activity     | act        |     | Icon             | ic         |     | NavigationView       | nav_view     | 
-Fragment     | frag       |     | MaterialCardView | card       |     | TabLayout     	      | tabs         | 
-ImageView    | img        |     | Notification     | notify     |     | TabItem              | tab          | 
-TextView     | txt        |     | RecyclerView     | recycler   |     | navigation           | nav          | 
-LinearLayout | lin        |     | MaterialButton   | btn        |     | EditText             | edt          |
-CheckBox     | chk        |     | Spinner          | spn        |     | BottomNavigationView | btm_nav_view |
-Chip         | chp        |     | ChipGroup        | chp_grp    |     |||
+Компонент    | Сокращение |     | Компонент        | Сокращение |     | Компонент               | Сокращение    | 
+---          | ---        | --- | ---              | ---        | --- | ---                     | ---           | 
+Activity     | act        |     | Icon             | ic         |     | NavigationView          | nav_view      | 
+Fragment     | frag       |     | MaterialCardView | card       |     | TabLayout     	         | tabs          | 
+ImageView    | img        |     | Notification     | notify     |     | TabItem                 | tab           | 
+TextView     | txt        |     | RecyclerView     | recycler   |     | navigation              | nav           | 
+LinearLayout | lin        |     | MaterialButton   | btn        |     | EditText                | edt           |
+CheckBox     | chk        |     | Spinner          | spn        |     | BottomNavigationView    | btm_nav_view  |
+Chip         | chp        |     | ChipGroup        | chp_grp    |     | CollapsingToolbarLayout | cllps_toolbar |
 ||||||||
 ||||||||
 
