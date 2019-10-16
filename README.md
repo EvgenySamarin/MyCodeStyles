@@ -24,7 +24,7 @@ TextView     | txt        |     | RecyclerView     | recycler   |     | navigati
 LinearLayout | lin        |     | MaterialButton   | btn        |     | EditText                | edt           |
 CheckBox     | chk        |     | Spinner          | spn        |     | BottomNavigationView    | btm_nav_view  |
 Chip         | chp        |     | ChipGroup        | chp_grp    |     | CollapsingToolbarLayout | cllps_toolbar |
-||||||||
+AppBarLayout | app_bar    |     ||||||
 ||||||||
 
 
