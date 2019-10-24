@@ -60,3 +60,34 @@ AppBarLayout | app_bar    |     | CoordinatorLayout | coord      |     | Floatin
     android:textAppearance="@style/Body.Body1" />
 ```
   
+## Использование proguard
+Правила proguard для сторонних библиотек должны находится в директории `Project\<название модуля>\proguard\`, для каждой библиотеки создается отдельный файл правил. 
+Шаблоны файлов берутся из [этого репозитория](https://github.com/krschultz/android-proguard-snippets/tree/master/libraries).
+
+Все остальные правила - для proguard должны быть сформированы в коде с помощью аннотации `@keep`. 
+Также в модуль следует включить основное правило:
+```proguard
+##
+# Описываем набор правил для обфускации кода:
+# Правила для сторонних библиотек, находятся в директории app/proguard в виде отдельных файлов.
+# Шаблоны файлов берутся из репозитория:
+# https://github.com/krschultz/android-proguard-snippets/tree/master/libraries
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+#
+# author EvgenySamarin [github](https://github.com/EvgenySamarin)
+# since 20191018 v2
+##
+
+##---------------------------##
+## Общие правила, для всех проектов
+-printusage build/outputs/mapping/release/usage.txt # Печатаем вырезанные библиотеки и методы
+-printmapping build/outputs/mapping/release/mapping.txt # Печатаем словарь ассоциаций
+-printseeds build/outputs/mapping/release/seeds.txt # Печатаем все точки входа в библиотеки
+
+-dontobfuscate # отключаем обфускацию на время отладки, закоментируй после проверки
+##===========================##
+```
+
+
