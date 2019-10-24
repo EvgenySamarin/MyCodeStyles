@@ -25,7 +25,7 @@ LinearLayout | lin        |     | MaterialButton    | btn        |     | EditTex
 CheckBox     | chk        |     | Spinner           | spn        |     | BottomNavigationView    | btm_nav_view  |
 Chip         | chp        |     | ChipGroup         | chp_grp    |     | CollapsingToolbarLayout | cllps_toolbar |
 AppBarLayout | app_bar    |     | CoordinatorLayout | coord      |     | FloatingActionButton    | fab           |
-||||||||
+WebView      | web        |     | |||||
 
 
 ### Именование Layout Files
