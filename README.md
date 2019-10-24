@@ -15,16 +15,16 @@
 
 Принятые сокращения: 
 
-Компонент    | Сокращение |     | Компонент        | Сокращение |     | Компонент               | Сокращение    | 
----          | ---        | --- | ---              | ---        | --- | ---                     | ---           | 
-Activity     | act        |     | Icon             | ic         |     | NavigationView          | nav_view      | 
-Fragment     | frag       |     | MaterialCardView | card       |     | TabLayout     	         | tabs          | 
-ImageView    | img        |     | Notification     | notify     |     | TabItem                 | tab           | 
-TextView     | txt        |     | RecyclerView     | recycler   |     | navigation              | nav           | 
-LinearLayout | lin        |     | MaterialButton   | btn        |     | EditText                | edt           |
-CheckBox     | chk        |     | Spinner          | spn        |     | BottomNavigationView    | btm_nav_view  |
-Chip         | chp        |     | ChipGroup        | chp_grp    |     | CollapsingToolbarLayout | cllps_toolbar |
-AppBarLayout | app_bar    |     |                  |            |     | FloatingActionButton    | fab           |
+Компонент    | Сокращение |     | Компонент         | Сокращение |     | Компонент               | Сокращение    | 
+---          | ---        | --- | ---               | ---        | --- | ---                     | ---           | 
+Activity     | act        |     | Icon              | ic         |     | NavigationView          | nav_view      | 
+Fragment     | frag       |     | MaterialCardView  | card       |     | TabLayout     	         | tabs          | 
+ImageView    | img        |     | Notification      | notify     |     | TabItem                 | tab           | 
+TextView     | txt        |     | RecyclerView      | recycler   |     | navigation              | nav           | 
+LinearLayout | lin        |     | MaterialButton    | btn        |     | EditText                | edt           |
+CheckBox     | chk        |     | Spinner           | spn        |     | BottomNavigationView    | btm_nav_view  |
+Chip         | chp        |     | ChipGroup         | chp_grp    |     | CollapsingToolbarLayout | cllps_toolbar |
+AppBarLayout | app_bar    |     | CoordinatorLayout | coord      |     | FloatingActionButton    | fab           |
 ||||||||
 
 
