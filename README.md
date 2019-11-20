@@ -3,7 +3,7 @@
 
 Настало время подытожить свои **пока небольшие** знание по языкам, и разработать свой собственный стиль. В основу стиля легли найденые мной best practices, буду включать их со ссылками на первоисточники. В общем погнали.
 
-> Описание code style будет на [странице wiki](https://github.com/EvgenySamarin/MyCodeStyles/wiki/Kotlin), на соответствующей языку закладке
+> Описание code style под конкретный язык будет на [странице wiki](https://github.com/EvgenySamarin/MyCodeStyles/wiki/Kotlin), на соответствующей языку закладке. Здет
 
 Как минимум перед прочтением следует ознакомиться с отличным гайдом, который был мной бережно и с трепетом форкнут в свои кулуары:
 [Ribots guidline](https://github.com/EvgenySamarin/android-guidelines/blob/master/project_and_code_guidelines.md)
