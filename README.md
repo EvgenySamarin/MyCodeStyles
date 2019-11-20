@@ -94,7 +94,7 @@ ProgressBar  | prg_bar    |     |||     |||
 ##===========================##
 ```
 ## Gradle rules
-Приложение по возможности должно быть разбито на модули. В главном build.gradle скрипте (скрипт проекта) описываются подключаемые библиотеки, а также их версии. Версии выносятся в отдельные переменные и анотируются встроенными комментариями.
+Приложение по возможности должно быть разбито на модули. В главном build.gradle скрипте (скрипт проекта) описываются подключаемые библиотеки, а также их версии. Версии выносятся в отдельные переменные и анотируются встроенными комментариями. Названия переменных пишутся в snake_case. Kapt библиотеки должны быть отделены от implementation библиотек (описаны в разных массивах).
 
 Пример project build gradle.
 ```gradle
@@ -134,7 +134,7 @@ buildscript {
         google() //репозиторий подключается в последнюю очередь
     }
     dependencies {
-         classpath "com.android.tools.build:gradle:$gradle_version"
+        classpath "com.android.tools.build:gradle:$gradle_version"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "com.getkeepsafe.dexcount:dexcount-gradle-plugin:$dexcount_version"
         classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:$navigation_safe_args_version"
