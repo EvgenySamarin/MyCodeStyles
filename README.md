@@ -93,5 +93,60 @@ ProgressBar  | prg_bar    |     |||     |||
 -dontobfuscate # отключаем обфускацию на время отладки, закоментируй после проверки
 ##===========================##
 ```
+## Gradle rules
+Приложение по возможности должно быть разбито на модули. В главном build.gradle скрипте (скрипт проекта) описываются подключаемые библиотеки, а также их версии. Версии выносятся в отдельные переменные и анотируются встроенными комментариями.
+пример project build gradle.
+```gradle
+ext {
+    okhttp3_version = "4.1.0" //для создания клиента Http
+    kotlin_coroutines_version = "1.3.2" //для работы с асинхронными методами
+    material_version = "1.0.0" //для красоты в UI
+    architecture_components_version = "2.1.0" //для изучения современного подхода к разработке
 
+    libraries = [
+            //kotlin coroutines
+            "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version",
+            "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version",
+            "com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:$retrofit2_coroutines_version",
+
+            //ViewModel and liveData
+            "androidx.lifecycle:lifecycle-extensions:$architecture_components_version",
+            "androidx.lifecycle:lifecycle-viewmodel-ktx:$architecture_components_version",
+
+            //Dagger2
+            "com.google.dagger:dagger:$daggerVersion",
+            "com.google.dagger:dagger-android:$daggerVersion",
+            "com.google.dagger:dagger-android-support:$daggerVersion"
+    ]
+}
+
+buildscript {
+    ext.kotlin_version = '1.3.60'
+    ext.dexcount_version = '0.8.6'
+    ext.gradle_version = '3.5.2'
+    ext.navigationSafeArgsVersion = "1.0.0"
+
+    repositories {
+        jcenter()
+        google() //репозиторий подключается в последнюю очередь
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$rootProject.gradle_version"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        classpath "com.getkeepsafe.dexcount:dexcount-gradle-plugin:$dexcount_version"
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:$navigationSafeArgsVersion"
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+```
 
