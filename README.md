@@ -122,20 +122,22 @@ ext {
 }
 
 buildscript {
-    ext.kotlin_version = '1.3.60'
-    ext.dexcount_version = '0.8.6'
-    ext.gradle_version = '3.5.2'
-    ext.navigationSafeArgsVersion = "1.0.0"
+    ext {
+        kotlin_version = '1.3.60'
+        dexcount_version = '0.8.6'
+        gradle_version = '3.5.2'
+        navigation_safe_args_version = "1.0.0"
+    }
 
     repositories {
         jcenter()
         google() //репозиторий подключается в последнюю очередь
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:$rootProject.gradle_version"
+         classpath "com.android.tools.build:gradle:$gradle_version"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
         classpath "com.getkeepsafe.dexcount:dexcount-gradle-plugin:$dexcount_version"
-        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:$navigationSafeArgsVersion"
+        classpath "android.arch.navigation:navigation-safe-args-gradle-plugin:$navigation_safe_args_version"
     }
 }
 
