@@ -26,7 +26,7 @@ Chip         | chp        |     | ChipGroup         | chp_grp    |     | Collaps
 AppBarLayout | app_bar    |     | CoordinatorLayout | coord      |     | FloatingActionButton    | fab           |
 WebView      | web        |     | ViewPager         | pager      |     | TextInputLayout         | txt_in        |
 ScrollView   | scroll     |     | NestedScrollView  | nscroll    |     | GreedView               | grd           |
-ProgressBar  | prg_bar    |     |||     |||
+ProgressBar  | prg_bar    |     | RadioGroup        | radio_grp  |     | RadioButton             | radio         |
  ||     |||     |||
  ||     |||     |||
  ||     |||     |||
