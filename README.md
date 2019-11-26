@@ -24,10 +24,10 @@ LinearLayout | lin        |     | MaterialButton    | btn        |     | EditTex
 CheckBox     | chk        |     | Spinner           | spn        |     | BottomNavigationView    | btm_nav_view  |
 Chip         | chp        |     | ChipGroup         | chp_grp    |     | CollapsingToolbarLayout | cllps_toolbar |
 AppBarLayout | app_bar    |     | CoordinatorLayout | coord      |     | FloatingActionButton    | fab           |
-WebView      | web        |     | ViewPager         | pager      |     | TextInputLayout         | txt_in        |
-ScrollView   | scroll     |     | NestedScrollView  | nscroll    |     | GreedView               | grd           |
+WebView      | web        |     | ViewPager         | pager      |     | TextInputLayout         | txt_in_lay    |
+ScrollView   | scroll     |     | NestedScrollView  | nscroll    |     | TextInputEditText       | txt_in        |
 ProgressBar  | prg_bar    |     | RadioGroup        | radio_grp  |     | RadioButton             | radio         |
- ||     |||     |||
+GreedView    | grd        |     |||     |||
  ||     |||     |||
  ||     |||     |||
 
