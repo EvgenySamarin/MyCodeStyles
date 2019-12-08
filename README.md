@@ -68,6 +68,9 @@ FrameLayout  | frame      |     |||     |||
     android:text="@string/STUB_TXT_USER_NAME_WORD"
     android:textAppearance="@style/Body.Body1" />
 ```
+
+## Android resources
+Описание используемых ресурсов находится на [соответствующей странице wiki](https://github.com/EvgenySamarin/MyCodeStyles/wiki/Android-resource)
   
 ## Использование proguard
 Правила proguard для сторонних библиотек должны находится в директории `Project\<название модуля>\proguard\`, для каждой библиотеки создается отдельный файл правил. 
