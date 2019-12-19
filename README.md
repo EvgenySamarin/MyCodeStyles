@@ -30,7 +30,7 @@ AppBarLayout | app_bar    |     | CoordinatorLayout | coord      |     | Floatin
 WebView      | web        |     | ViewPager         | pager      |     | TextInputLayout         | txt_in_lay    |
 ScrollView   | scroll     |     | NestedScrollView  | nscroll    |     | TextInputEditText       | txt_in        |
 ProgressBar  | prg_bar    |     | RadioGroup        | radio_grp  |     | RadioButton             | radio         |
-GreedView    | grd        |     | Switch            | swch       |     | TimePicker              | time          |
+GridView     | grd        |     | Switch            | swch       |     | TimePicker              | time          |
 FrameLayout  | frame      |     | MenuItem          | menu       |     |||
  ||     |||     |||
 
