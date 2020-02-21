@@ -39,7 +39,7 @@ WebView      | web        |     | ViewPager         | pager      |     | TextInp
 ScrollView   | scroll     |     | NestedScrollView  | nscroll    |     | TextInputEditText       | txt_in        |
 ProgressBar  | prg_bar    |     | RadioGroup        | radio_grp  |     | RadioButton             | radio         |
 GridView     | grd        |     | Switch            | swch       |     | TimePicker              | time          |
-FrameLayout  | frame      |     | MenuItem          | menu       |     |||
+FrameLayout  | frame      |     | MenuItem          | menu       |     | ToggleButton            | tgl_btn       |
  ||     |||     |||
 
 
