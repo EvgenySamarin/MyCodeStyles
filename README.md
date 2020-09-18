@@ -6,7 +6,7 @@
 > Описание code style под конкретный язык будет на [странице wiki](https://github.com/EvgenySamarin/MyCodeStyles/wiki/Kotlin), на соответствующей языку закладке. Здесь будет общее описание для android SDK в целом.
 
 Как минимум перед прочтением следует ознакомиться с отличным гайдом, от команды:
-[Ribots guidline](https://github.com/ribot/android-guidelines/blob/master/architecture_guidelines/android_architecture.md)
+[Ribots guidline](https://github.com/ribot/android-guidelines/blob/master/project_and_code_guidelines.md)
 
 ## Comment baseword
 Все комментарии к классам или переменным, commit message и т.д. с 05.12.2019 пишутся на **Английском языке (интернациональном)**, это позволит использовать и понимать твой код людям из разных стран, пора бы уже и привыкнуть.
